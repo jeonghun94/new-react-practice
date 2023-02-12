@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import { apiUrl } from "../url";
-// import useMutation from "../api";
 
 const Home = () => {
   const [results, setResults] = useState([]);

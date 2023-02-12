@@ -1,10 +1,11 @@
 import { Suspense } from "react";
 import Header from "./Header";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, backBtn }) => {
   return (
     <Suspense fallback={<div>Loading</div>}>
-      <Header />
+      {/* <Header /> */}
+      <Header backBtn={backBtn} />
       {children}
     </Suspense>
   );
