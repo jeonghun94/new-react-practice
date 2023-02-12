@@ -14,7 +14,7 @@ const Header = ({ backBtn }) => {
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
             style={{ color: "#c8c8c8", marginRight: "-53px" }}
-            onClick={() => window.history.back()}
+            onClick={() => window.location.replace("/")}
           >
             <path
               strokeLinecap="round"
